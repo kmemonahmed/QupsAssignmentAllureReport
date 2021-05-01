@@ -1,0 +1,73 @@
+{
+  "uid" : "2ba447d7e2b66f8b",
+  "name" : "test_Case03",
+  "fullName" : "test_qupsassignment.TestqupsAssignment#test_Case03",
+  "historyId" : "ba6c4d7b6580caedf5475b621ad1ff9f",
+  "time" : {
+    "start" : 1619805329749,
+    "stop" : 1619805343247,
+    "duration" : 13498
+  },
+  "status" : "broken",
+  "statusMessage" : "IndexError: list index out of range",
+  "statusTrace" : "self = <test_qupsassignment.TestqupsAssignment object at 0x7f37433d84f0>, initial = 1, stop = 2\n\n    def test_Case02(self, initial = 0, stop=1):\n        self.stop = stop\n        self.initial = initial\n        self.cities = ['dhaka', 'chattogram', 'sylhet', 'khulna', 'barishal', 'rangpur', 'mymensingh', 'rajshahi']\n        self.min = 9999999999999999\n    \n        for i in range(self.initial, self.stop):\n            self.driver = webdriver.Chrome()\n            self.driver.get(f\"https://bikroy.com/en/ads/{self.cities[i]}\")\n            self.driver.maximize_window()\n            allure.attach(self.driver.get_screenshot_as_png(), name=f\"Accessed {self.cities[i]} Page\", attachment_type=AttachmentType.PNG)\n    \n            self.driver.implicitly_wait(5)\n            p = self.driver.find_elements_by_class_name('price--3SnqI')\n    \n            for x in p:\n                tmp_txt = x.text\n                txt = tmp_txt.replace(\",\", \"\")\n                temp = re.findall(r'\\d+', txt)\n                res = list(map(int, temp))\n                if len(res) > 0:\n                    now = int(res[0])\n                    if now < self.min:\n                        self.min = now\n                        el = x\n                i+=1\n    \n            self.driver.implicitly_wait(5)\n            try:\n                el.click()\n>               allure.attach(self.driver.get_screenshot_as_png(), name=f\"Min product from Page 1 of {self.cities[i]}\", attachment_type=AttachmentType.PNG)\nE               IndexError: list index out of range\n\ntest_qupsassignment.py:68: IndexError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_qupsassignment.TestqupsAssignment object at 0x7f37433d84f0>\n\n    def test_Case03(self):\n        self.st = 1\n        self.stp = 2\n    \n        while self.stp < 9:\n>           self.test_Case02(self.st, self.stp)\n\ntest_qupsassignment.py:105: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_qupsassignment.TestqupsAssignment object at 0x7f37433d84f0>, initial = 1, stop = 2\n\n    def test_Case02(self, initial = 0, stop=1):\n        self.stop = stop\n        self.initial = initial\n        self.cities = ['dhaka', 'chattogram', 'sylhet', 'khulna', 'barishal', 'rangpur', 'mymensingh', 'rajshahi']\n        self.min = 9999999999999999\n    \n        for i in range(self.initial, self.stop):\n            self.driver = webdriver.Chrome()\n            self.driver.get(f\"https://bikroy.com/en/ads/{self.cities[i]}\")\n            self.driver.maximize_window()\n            allure.attach(self.driver.get_screenshot_as_png(), name=f\"Accessed {self.cities[i]} Page\", attachment_type=AttachmentType.PNG)\n    \n            self.driver.implicitly_wait(5)\n            p = self.driver.find_elements_by_class_name('price--3SnqI')\n    \n            for x in p:\n                tmp_txt = x.text\n                txt = tmp_txt.replace(\",\", \"\")\n                temp = re.findall(r'\\d+', txt)\n                res = list(map(int, temp))\n                if len(res) > 0:\n                    now = int(res[0])\n                    if now < self.min:\n                        self.min = now\n                        el = x\n                i+=1\n    \n            self.driver.implicitly_wait(5)\n            try:\n                el.click()\n                allure.attach(self.driver.get_screenshot_as_png(), name=f\"Min product from Page 1 of {self.cities[i]}\", attachment_type=AttachmentType.PNG)\n    \n                try:\n                    posted_on = self.driver.find_elements_by_class_name(\"sub-title--37mkY\")[0]\n                    assert posted_on.is_displayed() == True\n                except:\n                    print(\"Post date Not found\")\n                    allure.attach(self.driver.get_screenshot_as_png(), name=f\"Post date not found of min{self.cities[i]}\", attachment_type=AttachmentType.PNG)\n    \n                try:\n                    description_text = self.driver.find_elements_by_class_name(\"description--1nRbz\")[0]\n                    assert description_text.is_displayed() == True\n                except:\n                    print(\"Description is not given by seller\")\n                    allure.attach(self.driver.get_screenshot_as_png(), name=f\"Description not found of min{self.cities[i]}\", attachment_type=AttachmentType.PNG)\n    \n                try:\n                    hidden_number = self.driver.find_elements_by_xpath(\"//*[text()='Click to show phone number']\")[0]\n                    hidden_number.click()\n                    mobile_number = self.driver.find_elements_by_class_name(\"phone-numbers--2COKR\")[0]\n                    assert mobile_number.is_displayed() == True\n                except:\n                    print('Phone Number is not given by seller')\n                    allure.attach(self.driver.get_screenshot_as_png(), name=f\"Phone Number not found of min{self.cities[i]}\", attachment_type=AttachmentType.PNG)\n    \n            except:\n>               print(f\"Page loading got issue, clicking skipped for {self.cities[i]}\")\nE               IndexError: list index out of range\n\ntest_qupsassignment.py:94: IndexError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "IndexError: list index out of range",
+    "statusTrace" : "self = <test_qupsassignment.TestqupsAssignment object at 0x7f37433d84f0>, initial = 1, stop = 2\n\n    def test_Case02(self, initial = 0, stop=1):\n        self.stop = stop\n        self.initial = initial\n        self.cities = ['dhaka', 'chattogram', 'sylhet', 'khulna', 'barishal', 'rangpur', 'mymensingh', 'rajshahi']\n        self.min = 9999999999999999\n    \n        for i in range(self.initial, self.stop):\n            self.driver = webdriver.Chrome()\n            self.driver.get(f\"https://bikroy.com/en/ads/{self.cities[i]}\")\n            self.driver.maximize_window()\n            allure.attach(self.driver.get_screenshot_as_png(), name=f\"Accessed {self.cities[i]} Page\", attachment_type=AttachmentType.PNG)\n    \n            self.driver.implicitly_wait(5)\n            p = self.driver.find_elements_by_class_name('price--3SnqI')\n    \n            for x in p:\n                tmp_txt = x.text\n                txt = tmp_txt.replace(\",\", \"\")\n                temp = re.findall(r'\\d+', txt)\n                res = list(map(int, temp))\n                if len(res) > 0:\n                    now = int(res[0])\n                    if now < self.min:\n                        self.min = now\n                        el = x\n                i+=1\n    \n            self.driver.implicitly_wait(5)\n            try:\n                el.click()\n>               allure.attach(self.driver.get_screenshot_as_png(), name=f\"Min product from Page 1 of {self.cities[i]}\", attachment_type=AttachmentType.PNG)\nE               IndexError: list index out of range\n\ntest_qupsassignment.py:68: IndexError\n\nDuring handling of the above exception, another exception occurred:\n\nself = <test_qupsassignment.TestqupsAssignment object at 0x7f37433d84f0>\n\n    def test_Case03(self):\n        self.st = 1\n        self.stp = 2\n    \n        while self.stp < 9:\n>           self.test_Case02(self.st, self.stp)\n\ntest_qupsassignment.py:105: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <test_qupsassignment.TestqupsAssignment object at 0x7f37433d84f0>, initial = 1, stop = 2\n\n    def test_Case02(self, initial = 0, stop=1):\n        self.stop = stop\n        self.initial = initial\n        self.cities = ['dhaka', 'chattogram', 'sylhet', 'khulna', 'barishal', 'rangpur', 'mymensingh', 'rajshahi']\n        self.min = 9999999999999999\n    \n        for i in range(self.initial, self.stop):\n            self.driver = webdriver.Chrome()\n            self.driver.get(f\"https://bikroy.com/en/ads/{self.cities[i]}\")\n            self.driver.maximize_window()\n            allure.attach(self.driver.get_screenshot_as_png(), name=f\"Accessed {self.cities[i]} Page\", attachment_type=AttachmentType.PNG)\n    \n            self.driver.implicitly_wait(5)\n            p = self.driver.find_elements_by_class_name('price--3SnqI')\n    \n            for x in p:\n                tmp_txt = x.text\n                txt = tmp_txt.replace(\",\", \"\")\n                temp = re.findall(r'\\d+', txt)\n                res = list(map(int, temp))\n                if len(res) > 0:\n                    now = int(res[0])\n                    if now < self.min:\n                        self.min = now\n                        el = x\n                i+=1\n    \n            self.driver.implicitly_wait(5)\n            try:\n                el.click()\n                allure.attach(self.driver.get_screenshot_as_png(), name=f\"Min product from Page 1 of {self.cities[i]}\", attachment_type=AttachmentType.PNG)\n    \n                try:\n                    posted_on = self.driver.find_elements_by_class_name(\"sub-title--37mkY\")[0]\n                    assert posted_on.is_displayed() == True\n                except:\n                    print(\"Post date Not found\")\n                    allure.attach(self.driver.get_screenshot_as_png(), name=f\"Post date not found of min{self.cities[i]}\", attachment_type=AttachmentType.PNG)\n    \n                try:\n                    description_text = self.driver.find_elements_by_class_name(\"description--1nRbz\")[0]\n                    assert description_text.is_displayed() == True\n                except:\n                    print(\"Description is not given by seller\")\n                    allure.attach(self.driver.get_screenshot_as_png(), name=f\"Description not found of min{self.cities[i]}\", attachment_type=AttachmentType.PNG)\n    \n                try:\n                    hidden_number = self.driver.find_elements_by_xpath(\"//*[text()='Click to show phone number']\")[0]\n                    hidden_number.click()\n                    mobile_number = self.driver.find_elements_by_class_name(\"phone-numbers--2COKR\")[0]\n                    assert mobile_number.is_displayed() == True\n                except:\n                    print('Phone Number is not given by seller')\n                    allure.attach(self.driver.get_screenshot_as_png(), name=f\"Phone Number not found of min{self.cities[i]}\", attachment_type=AttachmentType.PNG)\n    \n            except:\n>               print(f\"Page loading got issue, clicking skipped for {self.cities[i]}\")\nE               IndexError: list index out of range\n\ntest_qupsassignment.py:94: IndexError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1d6514761e6b06b0",
+      "name" : "Accessed chattogram Page",
+      "source" : "1d6514761e6b06b0.png",
+      "type" : "image/png",
+      "size" : 512655
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestqupsAssignment"
+  }, {
+    "name" : "host",
+    "value" : "Emon-Workstation"
+  }, {
+    "name" : "thread",
+    "value" : "69302-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ba447d7e2b66f8b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,183 @@
+{
+  "uid" : "c026b1ee9b33d4b",
+  "name" : "test_Case03",
+  "fullName" : "test_qupsassignment.TestqupsAssignment#test_Case03",
+  "historyId" : "ba6c4d7b6580caedf5475b621ad1ff9f",
+  "time" : {
+    "start" : 1619807494993,
+    "stop" : 1619807599635,
+    "duration" : 104642
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "65573709e0022600",
+      "name" : "Accessed city Page",
+      "source" : "65573709e0022600.png",
+      "type" : "image/png",
+      "size" : 254483
+    }, {
+      "uid" : "3c2033d89f04a15e",
+      "name" : "Min product from Page 1",
+      "source" : "3c2033d89f04a15e.png",
+      "type" : "image/png",
+      "size" : 351329
+    }, {
+      "uid" : "f676712e1e011133",
+      "name" : "Accessed city Page",
+      "source" : "f676712e1e011133.png",
+      "type" : "image/png",
+      "size" : 57143
+    }, {
+      "uid" : "4d0ba529f04ee14f",
+      "name" : "Min product from Page 1",
+      "source" : "4d0ba529f04ee14f.png",
+      "type" : "image/png",
+      "size" : 359988
+    }, {
+      "uid" : "dc10bd494acea642",
+      "name" : "Accessed city Page",
+      "source" : "dc10bd494acea642.png",
+      "type" : "image/png",
+      "size" : 258567
+    }, {
+      "uid" : "914c662419c7149a",
+      "name" : "Min product from Page 1",
+      "source" : "914c662419c7149a.png",
+      "type" : "image/png",
+      "size" : 389720
+    }, {
+      "uid" : "5e08d24bb68f5db4",
+      "name" : "Accessed city Page",
+      "source" : "5e08d24bb68f5db4.png",
+      "type" : "image/png",
+      "size" : 438719
+    }, {
+      "uid" : "d767018465b8b8ea",
+      "name" : "Min product from Page 1",
+      "source" : "d767018465b8b8ea.png",
+      "type" : "image/png",
+      "size" : 233848
+    }, {
+      "uid" : "637120716f721077",
+      "name" : "Accessed city Page",
+      "source" : "637120716f721077.png",
+      "type" : "image/png",
+      "size" : 422352
+    }, {
+      "uid" : "beb3a6f97185bede",
+      "name" : "Min product from Page 1",
+      "source" : "beb3a6f97185bede.png",
+      "type" : "image/png",
+      "size" : 77462
+    }, {
+      "uid" : "43066f3dbfda6b5e",
+      "name" : "Accessed city Page",
+      "source" : "43066f3dbfda6b5e.png",
+      "type" : "image/png",
+      "size" : 56000
+    }, {
+      "uid" : "7d41f09d03506733",
+      "name" : "Min product from Page 1",
+      "source" : "7d41f09d03506733.png",
+      "type" : "image/png",
+      "size" : 382236
+    }, {
+      "uid" : "f9eb3b6e0fe3f13c",
+      "name" : "Accessed city Page",
+      "source" : "f9eb3b6e0fe3f13c.png",
+      "type" : "image/png",
+      "size" : 494831
+    }, {
+      "uid" : "29d7c6f449fe6974",
+      "name" : "Min product from Page 1",
+      "source" : "29d7c6f449fe6974.png",
+      "type" : "image/png",
+      "size" : 148002
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 14,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestqupsAssignment"
+  }, {
+    "name" : "host",
+    "value" : "Emon-Workstation"
+  }, {
+    "name" : "thread",
+    "value" : "80133-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a679ee0820342508",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619806538919,
+        "stop" : 1619806652150,
+        "duration" : 113231
+      }
+    }, {
+      "uid" : "feb1d8d9e4b46833",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619806067775,
+        "stop" : 1619806179163,
+        "duration" : 111388
+      }
+    }, {
+      "uid" : "a5847d4ce0b452d3",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1619805885169,
+        "stop" : 1619805896894,
+        "duration" : 11725
+      }
+    }, {
+      "uid" : "2ba447d7e2b66f8b",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1619805329749,
+        "stop" : 1619805343247,
+        "duration" : 13498
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c026b1ee9b33d4b.json",
+  "parameterValues" : [ ]
+}

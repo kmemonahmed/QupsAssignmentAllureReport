@@ -1,0 +1,110 @@
+{
+  "uid" : "ee84ef552dc34531",
+  "name" : "test_Case02",
+  "fullName" : "test_qupsassignment.TestqupsAssignment#test_Case02",
+  "historyId" : "eaf214848ef482d85227e0d6aef2530a",
+  "time" : {
+    "start" : 1619807475488,
+    "stop" : 1619807494988,
+    "duration" : 19500
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "542b5c3751f71ffd",
+      "name" : "Accessed city Page",
+      "source" : "542b5c3751f71ffd.png",
+      "type" : "image/png",
+      "size" : 282829
+    }, {
+      "uid" : "e59a93f1efc614c1",
+      "name" : "Min product from Page 1",
+      "source" : "e59a93f1efc614c1.png",
+      "type" : "image/png",
+      "size" : 301495
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestqupsAssignment"
+  }, {
+    "name" : "host",
+    "value" : "Emon-Workstation"
+  }, {
+    "name" : "thread",
+    "value" : "80133-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "653ac6ff6df4ea6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619806520878,
+        "stop" : 1619806538915,
+        "duration" : 18037
+      }
+    }, {
+      "uid" : "9020dfcb5a1be060",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619806051344,
+        "stop" : 1619806067772,
+        "duration" : 16428
+      }
+    }, {
+      "uid" : "94eb078224f27afb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619805868992,
+        "stop" : 1619805885165,
+        "duration" : 16173
+      }
+    }, {
+      "uid" : "1a849ec8154646f8",
+      "status" : "broken",
+      "statusDetails" : "IndexError: list index out of range",
+      "time" : {
+        "start" : 1619805316071,
+        "stop" : 1619805329637,
+        "duration" : 13566
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee84ef552dc34531.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,153 @@
+{
+  "uid" : "a679ee0820342508",
+  "name" : "test_Case03",
+  "fullName" : "test_qupsassignment.TestqupsAssignment#test_Case03",
+  "historyId" : "ba6c4d7b6580caedf5475b621ad1ff9f",
+  "time" : {
+    "start" : 1619806538919,
+    "stop" : 1619806652150,
+    "duration" : 113231
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6b86b4bb783b4a1a",
+      "name" : "Accessed city Page",
+      "source" : "6b86b4bb783b4a1a.png",
+      "type" : "image/png",
+      "size" : 42260
+    }, {
+      "uid" : "1625d73c7dbbe53a",
+      "name" : "Min product from Page 1",
+      "source" : "1625d73c7dbbe53a.png",
+      "type" : "image/png",
+      "size" : 199262
+    }, {
+      "uid" : "2eb0d3dbb5db9d7c",
+      "name" : "Accessed city Page",
+      "source" : "2eb0d3dbb5db9d7c.png",
+      "type" : "image/png",
+      "size" : 514011
+    }, {
+      "uid" : "42a663d94c180963",
+      "name" : "Min product from Page 1",
+      "source" : "42a663d94c180963.png",
+      "type" : "image/png",
+      "size" : 397800
+    }, {
+      "uid" : "df060c27a25985fe",
+      "name" : "Accessed city Page",
+      "source" : "df060c27a25985fe.png",
+      "type" : "image/png",
+      "size" : 63485
+    }, {
+      "uid" : "62f466cf8fd2a1aa",
+      "name" : "Min product from Page 1",
+      "source" : "62f466cf8fd2a1aa.png",
+      "type" : "image/png",
+      "size" : 445834
+    }, {
+      "uid" : "e789db1e80990be1",
+      "name" : "Accessed city Page",
+      "source" : "e789db1e80990be1.png",
+      "type" : "image/png",
+      "size" : 52509
+    }, {
+      "uid" : "446f97d64232cabf",
+      "name" : "Min product from Page 1",
+      "source" : "446f97d64232cabf.png",
+      "type" : "image/png",
+      "size" : 270753
+    }, {
+      "uid" : "32f6b46e3321d19b",
+      "name" : "Accessed city Page",
+      "source" : "32f6b46e3321d19b.png",
+      "type" : "image/png",
+      "size" : 242845
+    }, {
+      "uid" : "2f5a0ad949de9eae",
+      "name" : "Min product from Page 1",
+      "source" : "2f5a0ad949de9eae.png",
+      "type" : "image/png",
+      "size" : 179496
+    }, {
+      "uid" : "2e62e40ada20f238",
+      "name" : "Accessed city Page",
+      "source" : "2e62e40ada20f238.png",
+      "type" : "image/png",
+      "size" : 314453
+    }, {
+      "uid" : "5f5a6e443983c7d0",
+      "name" : "Min product from Page 1",
+      "source" : "5f5a6e443983c7d0.png",
+      "type" : "image/png",
+      "size" : 277429
+    }, {
+      "uid" : "aee379fd383a61be",
+      "name" : "Phone Number not found",
+      "source" : "aee379fd383a61be.png",
+      "type" : "image/png",
+      "size" : 274729
+    }, {
+      "uid" : "ddab80893b0057b8",
+      "name" : "Accessed city Page",
+      "source" : "ddab80893b0057b8.png",
+      "type" : "image/png",
+      "size" : 489339
+    }, {
+      "uid" : "53c8303e07359d7f",
+      "name" : "Min product from Page 1",
+      "source" : "53c8303e07359d7f.png",
+      "type" : "image/png",
+      "size" : 289115
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestqupsAssignment"
+  }, {
+    "name" : "host",
+    "value" : "Emon-Workstation"
+  }, {
+    "name" : "thread",
+    "value" : "75580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a679ee0820342508.json",
+  "parameterValues" : [ ]
+}

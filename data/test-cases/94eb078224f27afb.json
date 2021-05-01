@@ -1,0 +1,75 @@
+{
+  "uid" : "94eb078224f27afb",
+  "name" : "test_Case02",
+  "fullName" : "test_qupsassignment.TestqupsAssignment#test_Case02",
+  "historyId" : "eaf214848ef482d85227e0d6aef2530a",
+  "time" : {
+    "start" : 1619805868992,
+    "stop" : 1619805885165,
+    "duration" : 16173
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "34474de7ad87b1f1",
+      "name" : "Accessed city Page",
+      "source" : "34474de7ad87b1f1.png",
+      "type" : "image/png",
+      "size" : 425137
+    }, {
+      "uid" : "662188c3767dc633",
+      "name" : "Min product from Page 1",
+      "source" : "662188c3767dc633.png",
+      "type" : "image/png",
+      "size" : 181046
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestqupsAssignment"
+  }, {
+    "name" : "host",
+    "value" : "Emon-Workstation"
+  }, {
+    "name" : "thread",
+    "value" : "71027-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94eb078224f27afb.json",
+  "parameterValues" : [ ]
+}

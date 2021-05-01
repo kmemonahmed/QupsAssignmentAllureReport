@@ -1,0 +1,81 @@
+{
+  "uid" : "653ac6ff6df4ea6b",
+  "name" : "test_Case02",
+  "fullName" : "test_qupsassignment.TestqupsAssignment#test_Case02",
+  "historyId" : "eaf214848ef482d85227e0d6aef2530a",
+  "time" : {
+    "start" : 1619806520878,
+    "stop" : 1619806538915,
+    "duration" : 18037
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b394934e0ef6bcc4",
+      "name" : "Accessed city Page",
+      "source" : "b394934e0ef6bcc4.png",
+      "type" : "image/png",
+      "size" : 417853
+    }, {
+      "uid" : "6de6c9ac35f1ca2f",
+      "name" : "Min product from Page 1",
+      "source" : "6de6c9ac35f1ca2f.png",
+      "type" : "image/png",
+      "size" : 225108
+    }, {
+      "uid" : "848f648d228655c4",
+      "name" : "Phone Number not found",
+      "source" : "848f648d228655c4.png",
+      "type" : "image/png",
+      "size" : 221434
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestqupsAssignment"
+  }, {
+    "name" : "host",
+    "value" : "Emon-Workstation"
+  }, {
+    "name" : "thread",
+    "value" : "75580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "653ac6ff6df4ea6b.json",
+  "parameterValues" : [ ]
+}

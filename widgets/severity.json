@@ -1,0 +1,41 @@
+[ {
+  "uid" : "c026b1ee9b33d4b",
+  "name" : "test_Case03",
+  "time" : {
+    "start" : 1619807494993,
+    "stop" : 1619807599635,
+    "duration" : 104642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae1ead0315274bf9",
+  "name" : "test_Case01",
+  "time" : {
+    "start" : 1619807455836,
+    "stop" : 1619807475479,
+    "duration" : 19643
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee84ef552dc34531",
+  "name" : "test_Case02",
+  "time" : {
+    "start" : 1619807475488,
+    "stop" : 1619807494988,
+    "duration" : 19500
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "284b69afa121f1e1",
+  "name" : "test_Case04",
+  "time" : {
+    "start" : 1619807599644,
+    "stop" : 1619807748951,
+    "duration" : 149307
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

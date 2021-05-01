@@ -1,0 +1,214 @@
+{
+  "uid" : "284b69afa121f1e1",
+  "name" : "test_Case04",
+  "fullName" : "test_qupsassignment.TestqupsAssignment#test_Case04",
+  "historyId" : "000ca701248e7803282a01ee0e8d4026",
+  "time" : {
+    "start" : 1619807599644,
+    "stop" : 1619807748951,
+    "duration" : 149307
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c1767f2ff4b91c3",
+      "name" : "CopyrightAssert True",
+      "source" : "6c1767f2ff4b91c3.png",
+      "type" : "image/png",
+      "size" : 88407
+    }, {
+      "uid" : "68dad2320d7a51e",
+      "name" : "Link Page Accessed",
+      "source" : "68dad2320d7a51e.png",
+      "type" : "image/png",
+      "size" : 71512
+    }, {
+      "uid" : "52ec549ef8599d1e",
+      "name" : "Link Page Accessed",
+      "source" : "52ec549ef8599d1e.png",
+      "type" : "image/png",
+      "size" : 122538
+    }, {
+      "uid" : "3e3ad93b098a3434",
+      "name" : "Link Page Accessed",
+      "source" : "3e3ad93b098a3434.png",
+      "type" : "image/png",
+      "size" : 55400
+    }, {
+      "uid" : "aa4b33ee9a119b6b",
+      "name" : "Link Page Accessed",
+      "source" : "aa4b33ee9a119b6b.png",
+      "type" : "image/png",
+      "size" : 134828
+    }, {
+      "uid" : "d1f12a22130d62ce",
+      "name" : "Link Page Accessed",
+      "source" : "d1f12a22130d62ce.png",
+      "type" : "image/png",
+      "size" : 111288
+    }, {
+      "uid" : "25b505f7e24bdee7",
+      "name" : "Link Page Accessed",
+      "source" : "25b505f7e24bdee7.png",
+      "type" : "image/png",
+      "size" : 46893
+    }, {
+      "uid" : "c830fdcd0af5ba51",
+      "name" : "Link Page Accessed",
+      "source" : "c830fdcd0af5ba51.png",
+      "type" : "image/png",
+      "size" : 71572
+    }, {
+      "uid" : "9eb7e9ca8addabb7",
+      "name" : "Link Page Accessed",
+      "source" : "9eb7e9ca8addabb7.png",
+      "type" : "image/png",
+      "size" : 82975
+    }, {
+      "uid" : "6669d13e6c47028b",
+      "name" : "Link Page Accessed",
+      "source" : "6669d13e6c47028b.png",
+      "type" : "image/png",
+      "size" : 82466
+    }, {
+      "uid" : "80a001ebb02897e1",
+      "name" : "Link Page Accessed",
+      "source" : "80a001ebb02897e1.png",
+      "type" : "image/png",
+      "size" : 461225
+    }, {
+      "uid" : "4c3bbdc067f0af60",
+      "name" : "Link Page Accessed",
+      "source" : "4c3bbdc067f0af60.png",
+      "type" : "image/png",
+      "size" : 437509
+    }, {
+      "uid" : "ee468ff94863e8f",
+      "name" : "Link Page Accessed",
+      "source" : "ee468ff94863e8f.png",
+      "type" : "image/png",
+      "size" : 57875
+    }, {
+      "uid" : "62cf4bac07e7f619",
+      "name" : "Link Page Accessed",
+      "source" : "62cf4bac07e7f619.png",
+      "type" : "image/png",
+      "size" : 252620
+    }, {
+      "uid" : "5e78e1023fae43a9",
+      "name" : "Link Page Accessed",
+      "source" : "5e78e1023fae43a9.png",
+      "type" : "image/png",
+      "size" : 92058
+    }, {
+      "uid" : "c9d9b6b40ddf7a3c",
+      "name" : "Link Page Accessed",
+      "source" : "c9d9b6b40ddf7a3c.png",
+      "type" : "image/png",
+      "size" : 540491
+    }, {
+      "uid" : "bab977cbcd9726c7",
+      "name" : "Link Page Accessed",
+      "source" : "bab977cbcd9726c7.png",
+      "type" : "image/png",
+      "size" : 103223
+    }, {
+      "uid" : "f77fe8e8c0e826b",
+      "name" : "Link Page Accessed",
+      "source" : "f77fe8e8c0e826b.png",
+      "type" : "image/png",
+      "size" : 78536
+    }, {
+      "uid" : "57857c46a4877f50",
+      "name" : "Link Page Accessed",
+      "source" : "57857c46a4877f50.png",
+      "type" : "image/png",
+      "size" : 122830
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 19,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestqupsAssignment"
+  }, {
+    "name" : "host",
+    "value" : "Emon-Workstation"
+  }, {
+    "name" : "thread",
+    "value" : "80133-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5a9f9aef847129b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619806652157,
+        "stop" : 1619806799303,
+        "duration" : 147146
+      }
+    }, {
+      "uid" : "b857c9ff88d7dcdb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: stale element reference: element is not attached to the page document\n  (Session info: chrome=90.0.4430.93)",
+      "time" : {
+        "start" : 1619806179168,
+        "stop" : 1619806192527,
+        "duration" : 13359
+      }
+    }, {
+      "uid" : "8fa09b84a2ecfa00",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome=90.0.4430.93)",
+      "time" : {
+        "start" : 1619805897159,
+        "stop" : 1619805901422,
+        "duration" : 4263
+      }
+    }, {
+      "uid" : "397f89e15ce53ce7",
+      "status" : "broken",
+      "statusDetails" : "TypeError: 'WebElement' object is not subscriptable",
+      "time" : {
+        "start" : 1619805343285,
+        "stop" : 1619805363825,
+        "duration" : 20540
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "284b69afa121f1e1.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,118 @@
+{
+  "uid" : "ae1ead0315274bf9",
+  "name" : "test_Case01",
+  "fullName" : "test_qupsassignment.TestqupsAssignment#test_Case01",
+  "historyId" : "1c9207f5f0eea0e263aa353604880787",
+  "time" : {
+    "start" : 1619807455836,
+    "stop" : 1619807475479,
+    "duration" : 19643
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1d89c98426d2ebb1",
+      "name" : "CopyrightAssert True",
+      "source" : "1d89c98426d2ebb1.png",
+      "type" : "image/png",
+      "size" : 74901
+    }, {
+      "uid" : "96f34a8ee95b0cf7",
+      "name" : "Button Existance True",
+      "source" : "96f34a8ee95b0cf7.png",
+      "type" : "image/png",
+      "size" : 228093
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestqupsAssignment"
+  }, {
+    "name" : "host",
+    "value" : "Emon-Workstation"
+  }, {
+    "name" : "thread",
+    "value" : "80133-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ac8da46e2b729678",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619806503729,
+        "stop" : 1619806520874,
+        "duration" : 17145
+      }
+    }, {
+      "uid" : "1ed6ee92c8075bf4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619805922545,
+        "stop" : 1619806051336,
+        "duration" : 128791
+      }
+    }, {
+      "uid" : "d9c86d7be2e50414",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchWindowException: Message: no such window: window was already closed\n  (Session info: chrome=90.0.4430.93)",
+      "time" : {
+        "start" : 1619805740349,
+        "stop" : 1619805868868,
+        "duration" : 128519
+      }
+    }, {
+      "uid" : "4a715182988cc547",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619805299703,
+        "stop" : 1619805316067,
+        "duration" : 16364
+      }
+    }, {
+      "uid" : "273ee5aeae3680d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1619710422546,
+        "stop" : 1619710433653,
+        "duration" : 11107
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ae1ead0315274bf9.json",
+  "parameterValues" : [ ]
+}

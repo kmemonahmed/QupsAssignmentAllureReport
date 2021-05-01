@@ -1,0 +1,61 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_qupsassignment",
+    "children" : [ {
+      "name" : "TestqupsAssignment",
+      "children" : [ {
+        "name" : "test_Case01",
+        "uid" : "ae1ead0315274bf9",
+        "parentUid" : "e77fb2a7874f5e0ea7c7853cd403e330",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619807455836,
+          "stop" : 1619807475479,
+          "duration" : 19643
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Case02",
+        "uid" : "ee84ef552dc34531",
+        "parentUid" : "e77fb2a7874f5e0ea7c7853cd403e330",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619807475488,
+          "stop" : 1619807494988,
+          "duration" : 19500
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Case03",
+        "uid" : "c026b1ee9b33d4b",
+        "parentUid" : "e77fb2a7874f5e0ea7c7853cd403e330",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619807494993,
+          "stop" : 1619807599635,
+          "duration" : 104642
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_Case04",
+        "uid" : "284b69afa121f1e1",
+        "parentUid" : "e77fb2a7874f5e0ea7c7853cd403e330",
+        "status" : "passed",
+        "time" : {
+          "start" : 1619807599644,
+          "stop" : 1619807748951,
+          "duration" : 149307
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e77fb2a7874f5e0ea7c7853cd403e330"
+    } ],
+    "uid" : "5ec3e754bf6b1996d733adbbdf258edc"
+  } ],
+  "name" : "suites"
+}

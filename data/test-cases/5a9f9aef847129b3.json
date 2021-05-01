@@ -1,0 +1,177 @@
+{
+  "uid" : "5a9f9aef847129b3",
+  "name" : "test_Case04",
+  "fullName" : "test_qupsassignment.TestqupsAssignment#test_Case04",
+  "historyId" : "000ca701248e7803282a01ee0e8d4026",
+  "time" : {
+    "start" : 1619806652157,
+    "stop" : 1619806799303,
+    "duration" : 147146
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "408bc8af937ec5e4",
+      "name" : "CopyrightAssert True",
+      "source" : "408bc8af937ec5e4.png",
+      "type" : "image/png",
+      "size" : 93012
+    }, {
+      "uid" : "44242d83a814bf2b",
+      "name" : "Link Page Accessed",
+      "source" : "44242d83a814bf2b.png",
+      "type" : "image/png",
+      "size" : 71512
+    }, {
+      "uid" : "67cba882296555c6",
+      "name" : "Link Page Accessed",
+      "source" : "67cba882296555c6.png",
+      "type" : "image/png",
+      "size" : 122534
+    }, {
+      "uid" : "5e9ddb052ef92931",
+      "name" : "Link Page Accessed",
+      "source" : "5e9ddb052ef92931.png",
+      "type" : "image/png",
+      "size" : 55400
+    }, {
+      "uid" : "c14a896639467760",
+      "name" : "Link Page Accessed",
+      "source" : "c14a896639467760.png",
+      "type" : "image/png",
+      "size" : 134828
+    }, {
+      "uid" : "63b1dd69a4a6b820",
+      "name" : "Link Page Accessed",
+      "source" : "63b1dd69a4a6b820.png",
+      "type" : "image/png",
+      "size" : 111288
+    }, {
+      "uid" : "7ac6defc44d1ee53",
+      "name" : "Link Page Accessed",
+      "source" : "7ac6defc44d1ee53.png",
+      "type" : "image/png",
+      "size" : 46893
+    }, {
+      "uid" : "44406e1c1e4d92fa",
+      "name" : "Link Page Accessed",
+      "source" : "44406e1c1e4d92fa.png",
+      "type" : "image/png",
+      "size" : 71572
+    }, {
+      "uid" : "26851827645bfa94",
+      "name" : "Link Page Accessed",
+      "source" : "26851827645bfa94.png",
+      "type" : "image/png",
+      "size" : 82975
+    }, {
+      "uid" : "924c857c41388e8a",
+      "name" : "Link Page Accessed",
+      "source" : "924c857c41388e8a.png",
+      "type" : "image/png",
+      "size" : 82466
+    }, {
+      "uid" : "7536862400047927",
+      "name" : "Link Page Accessed",
+      "source" : "7536862400047927.png",
+      "type" : "image/png",
+      "size" : 461225
+    }, {
+      "uid" : "d2ceb67323bfe28d",
+      "name" : "Link Page Accessed",
+      "source" : "d2ceb67323bfe28d.png",
+      "type" : "image/png",
+      "size" : 17460
+    }, {
+      "uid" : "59e368fe7fb0a6c6",
+      "name" : "Link Page Accessed",
+      "source" : "59e368fe7fb0a6c6.png",
+      "type" : "image/png",
+      "size" : 165069
+    }, {
+      "uid" : "406fc17363f869d4",
+      "name" : "Link Page Accessed",
+      "source" : "406fc17363f869d4.png",
+      "type" : "image/png",
+      "size" : 234350
+    }, {
+      "uid" : "1caf4aabbd5936da",
+      "name" : "Link Page Accessed",
+      "source" : "1caf4aabbd5936da.png",
+      "type" : "image/png",
+      "size" : 92058
+    }, {
+      "uid" : "9fa2c12e9c059d88",
+      "name" : "Link Page Accessed",
+      "source" : "9fa2c12e9c059d88.png",
+      "type" : "image/png",
+      "size" : 540491
+    }, {
+      "uid" : "eea045c30ee05a3b",
+      "name" : "Link Page Accessed",
+      "source" : "eea045c30ee05a3b.png",
+      "type" : "image/png",
+      "size" : 103223
+    }, {
+      "uid" : "3ee6a3ccc1c49c2b",
+      "name" : "Link Page Accessed",
+      "source" : "3ee6a3ccc1c49c2b.png",
+      "type" : "image/png",
+      "size" : 78536
+    }, {
+      "uid" : "63014651e3dd5405",
+      "name" : "Link Page Accessed",
+      "source" : "63014651e3dd5405.png",
+      "type" : "image/png",
+      "size" : 122830
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 19,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestqupsAssignment"
+  }, {
+    "name" : "host",
+    "value" : "Emon-Workstation"
+  }, {
+    "name" : "thread",
+    "value" : "75580-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5a9f9aef847129b3.json",
+  "parameterValues" : [ ]
+}

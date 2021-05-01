@@ -1,0 +1,73 @@
+{
+  "uid" : "397f89e15ce53ce7",
+  "name" : "test_Case04",
+  "fullName" : "test_qupsassignment.TestqupsAssignment#test_Case04",
+  "historyId" : "000ca701248e7803282a01ee0e8d4026",
+  "time" : {
+    "start" : 1619805343285,
+    "stop" : 1619805363825,
+    "duration" : 20540
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: 'WebElement' object is not subscriptable",
+  "statusTrace" : "self = <test_qupsassignment.TestqupsAssignment object at 0x7f37433d8c10>\n\n    def test_Case04(self):\n    \n        self.driver = webdriver.Chrome()\n        self.driver.get(\"https://bikroy.com/en/ads\")\n        self.driver.maximize_window()\n    \n    \n        self.driver.execute_script(\"window.scrollTo(0, document.body.scrollHeight);\")\n        txt = self.driver.find_elements_by_xpath(\"//*[text()='Copyright © Saltside Technologies']\")[0].text\n        assert txt == 'Copyright © Saltside Technologies'\n        allure.attach(self.driver.get_screenshot_as_png(), name=\"CopyrightAssert True\", attachment_type=AttachmentType.PNG)\n        time.sleep(2)\n    \n        def link_open(tr, sp):\n            for m in range(1,sp):\n                link = self.driver.find_element_by_xpath(f'//*[@id=\"app-wrapper\"]/div[1]/div[6]/div/div/div/div[1]/div[{tr}]/ul/li[{m}]/a/span')\n                time.sleep(1)\n                link.click()\n                time.sleep(2)\n                allure.attach(self.driver.get_screenshot_as_png(), name=f\"{link[0].text} Page Accessed\", attachment_type=AttachmentType.PNG)\n    \n                self.driver.back()\n    \n    \n    \n        # Opening all lincs More from Bikroy\n>       link_open(2, 7)\n\ntest_qupsassignment.py:136: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntr = 2, sp = 7\n\n    def link_open(tr, sp):\n        for m in range(1,sp):\n            link = self.driver.find_element_by_xpath(f'//*[@id=\"app-wrapper\"]/div[1]/div[6]/div/div/div/div[1]/div[{tr}]/ul/li[{m}]/a/span')\n            time.sleep(1)\n            link.click()\n            time.sleep(2)\n>           allure.attach(self.driver.get_screenshot_as_png(), name=f\"{link[0].text} Page Accessed\", attachment_type=AttachmentType.PNG)\nE           TypeError: 'WebElement' object is not subscriptable\n\ntest_qupsassignment.py:129: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: 'WebElement' object is not subscriptable",
+    "statusTrace" : "self = <test_qupsassignment.TestqupsAssignment object at 0x7f37433d8c10>\n\n    def test_Case04(self):\n    \n        self.driver = webdriver.Chrome()\n        self.driver.get(\"https://bikroy.com/en/ads\")\n        self.driver.maximize_window()\n    \n    \n        self.driver.execute_script(\"window.scrollTo(0, document.body.scrollHeight);\")\n        txt = self.driver.find_elements_by_xpath(\"//*[text()='Copyright © Saltside Technologies']\")[0].text\n        assert txt == 'Copyright © Saltside Technologies'\n        allure.attach(self.driver.get_screenshot_as_png(), name=\"CopyrightAssert True\", attachment_type=AttachmentType.PNG)\n        time.sleep(2)\n    \n        def link_open(tr, sp):\n            for m in range(1,sp):\n                link = self.driver.find_element_by_xpath(f'//*[@id=\"app-wrapper\"]/div[1]/div[6]/div/div/div/div[1]/div[{tr}]/ul/li[{m}]/a/span')\n                time.sleep(1)\n                link.click()\n                time.sleep(2)\n                allure.attach(self.driver.get_screenshot_as_png(), name=f\"{link[0].text} Page Accessed\", attachment_type=AttachmentType.PNG)\n    \n                self.driver.back()\n    \n    \n    \n        # Opening all lincs More from Bikroy\n>       link_open(2, 7)\n\ntest_qupsassignment.py:136: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\ntr = 2, sp = 7\n\n    def link_open(tr, sp):\n        for m in range(1,sp):\n            link = self.driver.find_element_by_xpath(f'//*[@id=\"app-wrapper\"]/div[1]/div[6]/div/div/div/div[1]/div[{tr}]/ul/li[{m}]/a/span')\n            time.sleep(1)\n            link.click()\n            time.sleep(2)\n>           allure.attach(self.driver.get_screenshot_as_png(), name=f\"{link[0].text} Page Accessed\", attachment_type=AttachmentType.PNG)\nE           TypeError: 'WebElement' object is not subscriptable\n\ntest_qupsassignment.py:129: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "57cac0df700d63b9",
+      "name" : "CopyrightAssert True",
+      "source" : "57cac0df700d63b9.png",
+      "type" : "image/png",
+      "size" : 93012
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestqupsAssignment"
+  }, {
+    "name" : "host",
+    "value" : "Emon-Workstation"
+  }, {
+    "name" : "thread",
+    "value" : "69302-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "397f89e15ce53ce7.json",
+  "parameterValues" : [ ]
+}

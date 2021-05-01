@@ -1,0 +1,75 @@
+{
+  "uid" : "4a715182988cc547",
+  "name" : "test_Case01",
+  "fullName" : "test_qupsassignment.TestqupsAssignment#test_Case01",
+  "historyId" : "1c9207f5f0eea0e263aa353604880787",
+  "time" : {
+    "start" : 1619805299703,
+    "stop" : 1619805316067,
+    "duration" : 16364
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "af15ed6d5e33369e",
+      "name" : "CopyrightAssert True",
+      "source" : "af15ed6d5e33369e.png",
+      "type" : "image/png",
+      "size" : 74901
+    }, {
+      "uid" : "54040b52480326ef",
+      "name" : "Button Existance True",
+      "source" : "54040b52480326ef.png",
+      "type" : "image/png",
+      "size" : 212613
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestqupsAssignment"
+  }, {
+    "name" : "host",
+    "value" : "Emon-Workstation"
+  }, {
+    "name" : "thread",
+    "value" : "69302-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_qupsassignment"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a715182988cc547.json",
+  "parameterValues" : [ ]
+}
